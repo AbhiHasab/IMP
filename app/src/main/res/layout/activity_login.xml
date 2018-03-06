@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android.support.design="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="#099">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="100dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+
+        <ImageView android:src="@drawable/logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="48dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--  Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:theme="@style/TextLabel"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter User Name"
+                android:textColor="#fff"
+                android:imeOptions="actionNext"
+                android:id="@+id/input_email"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:theme="@style/TextLabel"
+            android:layout_marginBottom="8dp">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Enter Password"
+                android:textColor="#fff"
+                android:id="@+id/input_password"/>
+        </android.support.design.widget.TextInputLayout>
+        <CheckBox
+            android:id="@+id/cbShowPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_password"
+            android:textColor="#fff"
+            android:theme="@style/checkBoxStyle"
+            android:textColorLink="#fff"
+            android:layout_gravity="center_horizontal"
+            android:text="Show Password" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:imeOptions="actionDone"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#099"
+            android:background="#fff"
+            android:text="Login"/>
+    </LinearLayout>
+</ScrollView>

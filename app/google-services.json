@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "140253434082",
+    "firebase_url": "https://vidyashritestseries.firebaseio.com",
+    "project_id": "vidyashritestseries",
+    "storage_bucket": "vidyashritestseries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140253434082:android:8e88118e1763668e",
+        "android_client_info": {
+          "package_name": "net.simplifiedcoding.VidyaShriTestSeries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140253434082-dq2p9hna8hqv74eqlft6l6velgn52tej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyr7pZLrBLq421kg21Tg6eVCaZP49uL2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140253434082:android:ca1f64d8615fc4f8",
+        "android_client_info": {
+          "package_name": "net.simplifiedcoding.gettingspecificdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140253434082-dq2p9hna8hqv74eqlft6l6velgn52tej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyr7pZLrBLq421kg21Tg6eVCaZP49uL2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140253434082:android:bd866ccfbadea2d7",
+        "android_client_info": {
+          "package_name": "org.classes.vidyashree.testseries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140253434082-dq2p9hna8hqv74eqlft6l6velgn52tej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyr7pZLrBLq421kg21Tg6eVCaZP49uL2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

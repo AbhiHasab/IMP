@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/address1"
+            android:text=""
+            android:paddingTop="14dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:id="@+id/id"
+            android:paddingTop="14dp"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/name"
+            android:paddingTop="14dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:id="@+id/address"
+            android:layout_weight="1"
+            android:paddingTop="14dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

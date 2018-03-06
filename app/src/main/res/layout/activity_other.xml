@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="#0f6bac"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView android:src="@drawable/logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Profile"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/attendance"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Question-Paper Demo"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Question and Answer "
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/testmark"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Test Marks"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/fees"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Fees"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/TimeTable"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="TimeTable"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+        <Button
+            android:id="@+id/ExamTimeTable"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Branches"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/remark"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#1082C6"
+            android:text="Question and Answer"
+            android:textColor="#fff"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"/>
+    </LinearLayout>
+</ScrollView>
